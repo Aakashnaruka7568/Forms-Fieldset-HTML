@@ -1,0 +1,79 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form name="my form">
+        <form>
+         Username:
+        <input type="username" name="username" placeholder="enter name" size="50px" maxlength="20">
+        <BR> <BR>
+            <!--Password is use for password-->
+             Password:
+            <input type="password" name="pass" placeholder="enter password" size="50px" maxlength="20">
+            <br><br>
+            <!--date is use to show the date
+            it has min and max attribute for calender settings -->
+            DOB:
+            <input type="date" name="dob" min="2024-05-15" max="2030-05-20">
+            <br> <br>
+            <!--file attribute is used for upload your nay file 
+            multipke attibute is used for selecting multiple files -->
+            file upload:
+            <input type="file" name="file data" multiple>
+            <br> <br>
+            <!-- radio is use for gender define 
+             its attribute value ,checked its one option one time -->
+             gender:
+             <input type="radio" name="gender" value="female">female
+             <input type="radio" name="gender" value="male" checked>male
+            <br><br>
+            <!--checked is use for give example
+            that check attribute not use then multiple option were selected by user-->
+            tick:
+            <input type="checkbox" name="c" value="java">java
+            <input type="checkbox" name="c" value="php">php
+            <input type="checkbox" name="c" value="python">python
+            <input type="checkbox" name="c" value="c++">c++
+            <input type="checkbox" name="c" valur="react">react
+            <br><br>
+            <!--address <textarea> tag and its attribute 1. cols -->
+                address:
+                <textarea name="address" cols="50" rows="6" placeholder="enter address"></textarea>
+                <teztarea name="address" cols="50" rows="6" placeholder="enter address" readonly></teztarea>
+                <br><br>
+                <!--<selet> tag is use for make A FORM OF SELECTING YEAR-->
+                    select year:
+                    <select name="year">
+                        <option>---year---</option>
+                        <option>2005</option>
+                        <option>2006</option>
+                        <option>2007</option>
+                        <option>2008</option>
+                        <option>2009</option> 
+
+                    </select>
+                    <!--desabled selected attribute is used for disabled the year tittle for selected-->
+                    <select name="yeardata">
+                        <option>--year disabled--</option>
+                        <option>2005</option>
+                        <option>2006</option>
+                        <option>2007</option>
+                        <option>2008</option>
+                        <option>2009</option>
+
+                    </select>
+                    <br> <br>
+                    <!-- for making form subbmitting we use <button> tag-->
+                        <input type="submit" value="send">
+                        <button type="submit">login</button>
+                        <input type="reset" name="re" value="reset">
+    </form>
+    <br><br>
+    <!--button tg is always used to in outside the <form> tag-->
+    <button>click</button>
+    <button type="button">click here</button>
+</body>
+</html>
